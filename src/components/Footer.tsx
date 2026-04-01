@@ -26,9 +26,9 @@ export const Footer: React.FC = () => {
         <div className="space-y-4">
           <h5 className="text-orange-accent font-bold text-sm uppercase tracking-widest">Sosyal</h5>
           <ul className="space-y-2">
-            <li><a href="#" className="text-white/60 hover:text-orange-accent transition-colors text-sm">Instagram</a></li>
-            <li><a href="#" className="text-white/60 hover:text-orange-accent transition-colors text-sm">Facebook</a></li>
-            <li><a href="#" className="text-white/60 hover:text-orange-accent transition-colors text-sm">X (Twitter)</a></li>
+            <li><a href="#" rel="noopener noreferrer" className="text-white/60 hover:text-orange-accent transition-colors text-sm">Instagram</a></li>
+            <li><a href="#" rel="noopener noreferrer" className="text-white/60 hover:text-orange-accent transition-colors text-sm">Facebook</a></li>
+            <li><a href="#" rel="noopener noreferrer" className="text-white/60 hover:text-orange-accent transition-colors text-sm">X (Twitter)</a></li>
           </ul>
         </div>
 
